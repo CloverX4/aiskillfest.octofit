@@ -6,7 +6,7 @@ from .models import User, Team, Activity, Leaderboard, Workout
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = 'http://verbose-palm-tree-59wv6gqv7jq3vw9q-8000.app.github.dev/'
+    base_url = 'https://verbose-palm-tree-59wv6gqv7jq3vw9q-8000.app.github.dev/'
     return Response({
         'users': base_url + 'api/users/?format=api',
         'teams': base_url + 'api/teams/?format=api',

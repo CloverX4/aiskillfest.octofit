@@ -13,3 +13,9 @@ DATABASES = {
         "PORT": 27017,
     }
 }
+
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'verbose-palm-tree-59wv6gqv7jq3vw9q-8000.app.github.dev'
+]
