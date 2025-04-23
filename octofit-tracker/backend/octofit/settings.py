@@ -83,7 +83,7 @@ WSGI_APPLICATION = "octofit.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-# Using djongo as the database engine for MongoDB
+# Copilot agent mode: Added djongo as the database engine for MongoDB
 DATABASES = {
     "default": {
         "ENGINE": "djongo",  # MongoDB backend
