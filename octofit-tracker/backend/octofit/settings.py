@@ -83,10 +83,10 @@ WSGI_APPLICATION = "octofit.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+# Using djongo as the database engine for MongoDB
 DATABASES = {
     "default": {
-        "ENGINE": "djongo",
+        "ENGINE": "djongo",  # MongoDB backend
         "NAME": "octofit_db",
         "HOST": "localhost",
         "PORT": 27017,
